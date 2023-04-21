@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul, ol {
+  list-style-type: none;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+}
+.container.wrapper{
+  max-width: 800px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 60px;
+  margin-bottom: 23px;
+}
+.logo{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 13px 0;
+}
+.navbar .nav a{
+  text-decoration: none;
+  font-size: 11px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+.navbar .nav .active{
+  display: inline-block;
+  border-bottom: 2px solid #FFFFFF4D;
+  padding-bottom: 14px;
+}
+
+main .bg{
+  background-image: url(../img/main_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 225px;
+  margin-top: -226px;
+  padding-bottom: 100px;
+}
+
+.posts .post .post_header{
+  background-image: url('../img/post1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 160px;
+  padding-left: 60px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.posts .post .post_header .tag{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 8px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.posts .post .author{
+  display: inline-block;
+}
+.posts .post .post_header img{
+  margin-right: 14px;
+}
+.posts .post .post_header h3{
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.posts .post .post_header p{
+  font-size: 13px;
+  font-family: 'Lato';
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 19px;
+}
+.posts .post .post_header h2{
+  font-size: 28px;
+  color: #FFFFFF;
+  font-weight: 400;
+  max-width: 470px;
+  margin-top: 20px;
+}
+.posts .post .post_footer{
+  background-color: #FFFFFF;
+  height: 180px;
+}
+.posts .post .post_footer p{
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Lato';
+  max-width: 660px;
+  height: 50px;
+  line-height: 25px;
+  padding: 36px 60px;
+}
+.posts .post .post_footer a{
+  color: #8D4FDB;
+  font-size: 17px;
+  margin-left: 60px;
+  margin-top: 0;
+}
+
+/* 2 */
+
+.posts .post2 .post_header{
+  background-image: url('../img/post2.png');
+}
+
+/* 3 */
+
+.posts .post3 .post_header{
+  background-image: url('../img/post3.png');
+}
+
+.posts .more{
+  background-color: #F1F1F1;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.posts .more h3{
+  color: #333333;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 21px;
+}
+.posts .more a{
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: #8D4FDB;
+  padding: 20px 25px;
+}
+
+
+
+.story{
+  background-color: #FFFFFF;
+  padding: 90px 0;
+}
+.story .title{
+  text-align: center;
+
+}
+.story .title h2{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.story .title p{
+  font-weight: 400;
+  color: #A9AFB3;
+  font-size: 23px;
+  line-height: 33px;
+}
+.story_posts{
+  display: flex;
+  margin-top: 50px;
+}
+.story .story_posts{
+  text-align: center;
+}
+.story .story_footer{
+  text-align: center;
+  margin-top: 56px;
+}
+.story .story_footer p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: 'Lato';
+  display: inline-block;
+}
+.story .story_footer a{
+  text-decoration: none;
+  color: #8D4FDB;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: 'Lato';
+}
+
+
+footer .footer_bg{
+  background-color: #000000;
+  text-align: center;
+}
+footer p{
+  color: #8B8B8B;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Lato';
+  line-height: 28px;
+  display: inline-block;
+}
+footer a{
+  color: #8D4FDB;
+  font-size: 13px;
+  font-family: 'Lato';
+  line-height: 28px;
+}
+.top{
+  padding-top: 55px;
+}
+.bottom{
+  padding-bottom: 45px;
+}
